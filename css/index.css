@@ -1,9 +1,110 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
-.img-fluid{
-    width: 490px;
-    height: 400px;
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
 }
 
+.navbar{
+    background-color: white;
+}
+
+#pink{
+    color: #F43757;
+}
+
+.navbar-brand{
+    padding-left: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F43757 !important;
+}
+
+.navbar-nav{
+    padding-right: 4rem;
+}
+
+.section-banner{
+    /* background-image: url("/assets/rectangle.png"); */
+    background-size: cover;
+    background-color: silver;
+    height: 100vh;
+}
+
+#intro-text{
+    padding: 12rem 0rem;
+    color: white;
+}
+
+#intro-text h1{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background-color: #F43757;
+    border-radius: 20px;
+}
+
+.section-about{
+    padding: 100px 0px;
+}
+
+.btn-about{
+    color: white;
+    background-color: #F43757;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+#title{
+    padding-bottom: 80px;
+    font-weight: bold;
+}
+
+.section-about img{
+    width: 70%;
+}
+
+.section-about p{
+    padding-bottom: 30px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.section-concert{
+    margin-bottom: 0px;
+}
+
+.section-testimonial{
+    color: white;
+    background-color: #161A22;
+}
+
+input{
+    background-color: #F4F4F2 !important;
+    border: none !important;
+    border-radius: none !important;
+}
+
+#form{
+    height: 55px;
+}
+
+#msg{
+    height: 100px;
+    padding-top: 0px;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        padding-left: 5px;
+    }
+}
